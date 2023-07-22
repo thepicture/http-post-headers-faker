@@ -1,6 +1,6 @@
 {
   "name": "http-post-headers-faker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates browser-like POST HTTP headers respecting their order",
   "main": "index.js",
   "keywords": [
