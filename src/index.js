@@ -34,8 +34,8 @@ const generateChromeHttpPostHeaders = (
     Host: host,
     Connection: keepConnectionAlive ? "keep-alive" : "close",
     "Content-Length": contentLength,
-    Pragma: "no-cache",
-    "Cache-Control": "no-cache",
+    ...{ ...(Math.random() > 0.5 ? { Pragma: "no-cache" } : {}) },
+    ...{ ...(Math.random() > 0.5 ? { "Cache-Control": "no-cache" } : {}) },
     "sec-ch-ua": `"${getSecChUaBrand(
       majorVersion
     )}";v="8", "Chromium";v="${majorVersion}", "Google Chrome";v="${majorVersion}"`,
