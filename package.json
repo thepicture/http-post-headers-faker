@@ -1,0 +1,23 @@
+{
+  "name": "http-post-headers-faker",
+  "version": "1.0.0",
+  "description": "Generates browser-like POST HTTP headers respecting their order",
+  "main": "index.js",
+  "keywords": [
+    "http",
+    "post",
+    "request",
+    "fake",
+    "mimic",
+    "evasion",
+    "bot",
+    "fetch",
+    "chrome",
+    "firefox",
+    "antifingerprint",
+    "scraper",
+    "headers"
+  ],
+  "author": "thepicture",
+  "license": "ISC"
+}
