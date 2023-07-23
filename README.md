@@ -2,9 +2,12 @@
 
 Get browser-like HTTP headers for POST requests
 
-## Why?
+```
+Most libraries use GET header order for POST requests and the request get detected as a bot
 
-Most libraries use GET headers for anti-fingerprint reasons for POST requests and the request gets blocked because of being bot-like
+e.g. Akamai
+```
+
 
 ## Usage
 
@@ -115,6 +118,15 @@ Retuns gecko-like headers
   }
 ```
 
-If options overrided, they will merge with the default ones.
+If options are overridden, they will merge with the default ones.
 
 Thus, changing `majorVersion` merges with the default options of their respective browser.
+
+## Notice
+`Content-Length`'s and other data-specific header values should be changed, e.g.
+
+```javascript
+const buffer = getBufferSomehow();
+
+headers['Content-Length'] = buffer.length
+```
