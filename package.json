@@ -3,6 +3,7 @@
   "version": "1.1.1",
   "description": "Generates browser-like POST HTTP headers respecting their order",
   "main": "index.js",
+  "repository": "thepicture/http-post-headers-faker",
   "keywords": [
     "http",
     "post",
