@@ -130,3 +130,8 @@ const buffer = getBufferSomehow();
 
 headers['Content-Length'] = buffer.length
 ```
+
+## Test
+```bash
+npm test
+```
