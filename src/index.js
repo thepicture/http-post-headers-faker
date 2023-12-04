@@ -4,7 +4,7 @@ const generateChromeHttpPostHeaders = (
   {
     host = "example.com",
     scheme = "https",
-    majorVersion = 115,
+    majorVersion = 120,
     secChUaPlatform = "Windows",
     isMobile = false,
     acceptLanguage = "en-US",
@@ -17,7 +17,7 @@ const generateChromeHttpPostHeaders = (
   } = {
     host: "example.com",
     scheme: "https",
-    majorVersion: 115,
+    majorVersion: 120,
     secChUaPlatform: "Windows",
     isMobile: false,
     acceptLanguage: "en-US",
@@ -58,7 +58,7 @@ const generateFirefoxHttpPostHeaders = (
   {
     host = "example.com",
     scheme = "https",
-    majorVersion = 115,
+    majorVersion = 120,
     acceptLanguage = "en-US,en;q=0.5",
     keepConnectionAlive = true,
     userAgentPlatform = "Windows NT 10.0; Win64; x64; rv:109.0",
@@ -69,7 +69,7 @@ const generateFirefoxHttpPostHeaders = (
   } = {
     host: "example.com",
     scheme: "https",
-    majorVersion: 115,
+    majorVersion: 120,
     acceptLanguage: "en-US,en;q=0.5",
     keepConnectionAlive: true,
     userAgentPlatform: "Windows NT 10.0; Win64; x64; rv:109.0",
